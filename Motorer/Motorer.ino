@@ -1,12 +1,12 @@
 // Motor A connections, Right motor
-int enA = 13;
-int in1 = 14; //Forward
-int in2 = 27; //Backward
+int enA = 14;
+int in1 = 27; //Forward
+int in2 = 16; //Backward
 
 // Motor B connections, Left motor
-int enB = 12;
-int in3 = 16; //Forward
-int in4 = 17; //Backward
+int enB = 26;
+int in3 = 17; //Forward
+int in4 = 25; //Backward
 
 void setup() {
 	// Set all the motor control pins to outputs
