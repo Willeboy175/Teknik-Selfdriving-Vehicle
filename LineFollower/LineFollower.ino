@@ -49,27 +49,27 @@ void irSensor()
   int sensorValue4 = digitalRead(output4); 
   int sensorValue5 = digitalRead(output5);
 
-  if(sensorValue1 == 1)
+  if(sensorValue1 == 0)
   {
     Serial.println("Hard left");
     hardLeft();
   }
-  if(sensorValue2 == 1)
+  if(sensorValue2 == 0)
   {
     Serial.println("Left");
     left();
   }
-  if(sensorValue3 == 1)
+  if(sensorValue3 == 0)
   {
     Serial.println("Forward");
     forward();
   }
-  if(sensorValue4 == 1)
+  if(sensorValue4 == 0)
   {
     Serial.println("Right");
     right();
   }
-  if(sensorValue5 == 1)
+  if(sensorValue5 == 0)
   {
     Serial.println("Hard right");
     hardRight();
