@@ -16,6 +16,7 @@ int output4 = 23;
 int output5 = 19;
 
 void setup() {
+  Serial.begin(9600);
 	// Set all the motor control pins to outputs
 	pinMode(enA, OUTPUT);
 	pinMode(enB, OUTPUT);
